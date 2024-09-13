@@ -1,0 +1,12 @@
+.habilidades{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 50px 100px;
+  text-align: center;
+}
+
+.habilidades h2{
+  margin-bottom: 15px;
+}

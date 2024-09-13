@@ -1,0 +1,54 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  margin: 50px 100px;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.home .home-img {
+  order: 2;
+}
+
+.home .home-text {
+  order: 1;
+}
+
+.home .home-img img {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 50%;
+  border: 5px solid #4ee0a1;
+
+}
+
+.home .home-text h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.home .home-text h1 span {
+  border-bottom: 4px solid #4ee0a1;
+}
+
+.home .home-text p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.home .home-text a {
+  font-size: 24px;
+  margin-bottom: 30px;
+  transition: 0.2s;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4ee0a1;
+}
+
+.home .home-text a:hover {
+  color: #4ee0a1;
+}

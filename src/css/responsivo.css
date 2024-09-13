@@ -1,0 +1,94 @@
+@media(max-width: 1024px) {
+    .cabecalho {
+        margin: 50px 50px;
+    }
+    
+    .home {
+        margin: 50px 50px;
+    }
+
+    .home .home-img img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .habilidades {
+        margin: 50px 50px;
+    }
+
+    .projetos {
+        margin: 50px 50px;
+    }
+
+    .contato {
+        margin: 0 50px;
+    }
+
+    .contato .contato-input {
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 768px) {
+    .home {
+        gap: 20px;
+    }
+
+    .home .home-img img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .home .home-text h1 {
+        font-size: 30px;
+    }
+
+    .contato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato .contato-text {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 425px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 20px;
+    }
+
+    .home {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    .home .home-img {
+        order: 0;
+    }
+
+    .home .home-text {
+        text-align: center;
+    }
+
+    .home .home-text h1 {
+        font-size: 35px;
+    }
+
+    .habilidades {
+        justify-content: center;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 50px;
+    }
+
+    .projetos {
+        padding: 0;
+    }
+
+    .contato .contato-input {
+        max-width: 380px;
+    }
+}

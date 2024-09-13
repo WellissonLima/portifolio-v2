@@ -1,0 +1,91 @@
+footer {
+    background-color: #242424;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin: 0 100px;
+    padding-top: 50px;
+}
+
+.contato .contato-text {
+    width: 400px;
+    padding-top: 50px;
+}
+
+.contato .contato-text h2 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.contato .contato-text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contato .contato-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    
+}
+
+.contato .contato-input input {
+    height: 60px;
+}
+
+.contato .contato-input input::placeholder, textarea::placeholder {
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    color: #fff;
+}
+
+.contato .contato-input textarea, input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.001);
+    border-bottom: 2px solid #fff;
+    background: none;
+    color: #fff;
+}
+
+.contato .contato-input .alert-error{
+    border-bottom: 2px solid #ff242f;
+}
+
+.error-message {
+    color: #ff242f;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 5px;
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.error-placeholder::placeholder{
+    color: #ff242f;
+}
+
+.contato .contato-input .btn-enviar {
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    background: none;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.001);
+    border-bottom:2px solid #4ee0a1;
+    width: 100px;
+    cursor: pointer;
+}
