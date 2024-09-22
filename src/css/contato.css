@@ -20,6 +20,7 @@ footer {
     font-weight: 500;
     line-height: 35px;
     margin-bottom: 30px;
+    color: #39FF14;
 }
 
 .contato .contato-text p {
@@ -44,7 +45,7 @@ footer {
     font-weight: 600;
     position: absolute;
     left: 20px;
-    color: #fff;
+    color: #39FF14;
 }
 
 .contato .contato-input textarea, input {
@@ -85,7 +86,12 @@ footer {
     background: none;
     color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.001);
-    border-bottom:2px solid #4ee0a1;
+    border-bottom:2px solid #39FF14;
     width: 100px;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.contato .contato-input .btn-enviar:hover {
+    color: #39FF14;
 }

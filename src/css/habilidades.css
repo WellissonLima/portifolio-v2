@@ -3,10 +3,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 50px;
-  margin: 50px 100px;
+  padding: 50px 100px;
   text-align: center;
+  background-color: #1c1c1c;
 }
 
 .habilidades h2{
   margin-bottom: 15px;
+  color: #39FF14;
 }

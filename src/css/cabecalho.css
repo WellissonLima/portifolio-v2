@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  background-color: #1c1c1c;
   margin: 50px 100px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .cabecalho .logo a:hover h3 {
-  color: #4ee0a1;
+  color: #39FF14;
   transform: scale(1.05);
 }
 
@@ -30,6 +30,6 @@
 }
 
 .cabecalho .redes ul li a:hover i, .roda-pe .redes ul li a:hover i {
-  color: #4ee0a1;
+  color: #39FF14;
   transform: scale(1.15); 
 }
